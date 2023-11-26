@@ -45,11 +45,11 @@ seleccionamos parted magic y cuando estemos en la interfaz gráfica utilizamos l
 
 Al meternos en la cuenta veremos que podemos seleccionar no poner contraseña por lo que podremos cambiarle la contraseña
 
-Actividad 5.- Ataques contra contraseñas en Sistemas Linux 
+## Actividad 5.- Ataques contra contraseñas en Sistemas Linux 
 
 Para esta actividad vamos a utilizar jhon the Ripper y backtrack si utilizamos una distribución kali ya las tenemos instaladas por eso solamente son comandos. Si queremos saber las contraseñas de los usuarios realizamos un john /etc/shadow y solucionado
 
-Actividad 6.- Realiza un listado de Congeladores este tipo de herramientas y analiza la instalación y configuración de 2 congeladores
+## Actividad 6.- Realiza un listado de Congeladores este tipo de herramientas y analiza la instalación y configuración de 2 congeladores
 
 Para esta actividad me he encontrado muchas aplicaciones que realizan esta función algunas ya no se usan o no se pueden usar por ser demasiado antiguas o por otro tipo de motivo pero aún sigue habiendo documentación sobre ellas.
 
@@ -84,7 +84,7 @@ RollBack
 ![](Unidad3/Img/act6-5.png)
 ![](Unidad3/Img/act6-6.png)
 
-Actividad 7: GRUB.
+## Actividad 7: GRUB.
 Debemos añadir estas líneas en el fichero /etc/grub.d/00_header
 
 ![](Unidad3/Img/act7-1.png)
@@ -96,3 +96,6 @@ Luego tendremos que poner --unrestricted el fichero /etc/grub.d/10_linux
 Para hacer esto podemos presionar Ctrl + w y buscar menuentry.
 y yasta con esto esta partición esta segura con el grub
 ![](Unidad3/Img/act7-3.png)
+## Actividad 8
+
+No está hecho
